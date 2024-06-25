@@ -23,6 +23,7 @@ class ClientStaticInner {
     }
 }
 
+
 class ClientUsingReflectionToBrakeSingleton{ // 리플렉션을 이용하여 싱글톤을 깨는 예제
     // 리플렉션으로 생성자를 가져와, 접근제어자에 대한 설정을 변경한 뒤, 새로운 객체를 생성하는 방식
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
